@@ -1,36 +1,3 @@
-# import secrets
-# import string
-# from tkinter import *
-#
-# window = Tk()
-#
-# window.geometry("300x120")
-#
-# length = StringVar()
-#
-#
-# def submit():
-#     dlugosc = int(length.get())
-#     lower = string.ascii_lowercase
-#     upper = string.ascii_uppercase
-#     num = string.digits
-#     symbols = string.punctuation
-#     all = lower + upper + num + symbols
-#     password = ''.join(secrets.choice(all) for i in range(dlugosc))
-#     print(password)
-#     return dlugosc
-#
-#
-#
-# question = Label(window, text="Enter length")
-# question.pack()
-# e1 = Entry(window, textvariable=length)
-# e1.pack()
-#
-# sub = Button(window, text="Generate password", command=submit)
-# sub.pack()
-#
-# window.mainloop()
 
 from tkinter import *
 import secrets
